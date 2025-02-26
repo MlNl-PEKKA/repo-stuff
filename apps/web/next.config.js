@@ -10,8 +10,6 @@ const config = {
 
   /** Enables hot reloading for local packages without a build step */
   transpilePackages: [
-    "@repo-stuff/api",
-    "@repo-stuff/auth",
     "@repo-stuff/db",
     "@repo-stuff/ui",
     "@repo-stuff/validators",
