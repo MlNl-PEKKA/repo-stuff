@@ -45,10 +45,7 @@
       "interactive": true
     }
   },
-  "globalEnv": [
-    "POSTGRES_URL",
-    "PORT"
-  ],
+  "globalEnv": ["POSTGRES_URL", "PORT"],
   "globalPassThroughEnv": [
     "NODE_ENV",
     "CI",
