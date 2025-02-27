@@ -1,5 +1,5 @@
 {
-  "name": "@repo-stuff/db",
+  "name": "repo-stuff/db",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -36,14 +36,14 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@repo-stuff/eslint-config": "workspace:*",
-    "@repo-stuff/prettier-config": "workspace:*",
-    "@repo-stuff/tsconfig": "workspace:*",
+    "repo-stuff/eslint-config": "workspace:*",
+    "repo-stuff/prettier-config": "workspace:*",
+    "repo-stuff/tsconfig": "workspace:*",
     "dotenv-cli": "^8.0.0",
     "drizzle-kit": "^0.30.2",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@repo-stuff/prettier-config"
+  "prettier": "repo-stuff/prettier-config"
 }

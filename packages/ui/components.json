@@ -10,7 +10,7 @@
     "cssVariables": true
   },
   "aliases": {
-    "utils": "@repo-stuff/ui",
+    "utils": "repo-stuff/ui",
     "components": "src/",
     "ui": "src/"
   }
