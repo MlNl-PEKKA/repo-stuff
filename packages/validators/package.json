@@ -19,15 +19,15 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "zod": "catalog:"
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@repo-stuff/eslint-config": "workspace:*",
     "@repo-stuff/prettier-config": "workspace:*",
     "@repo-stuff/tsconfig": "workspace:*",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
-    "typescript": "catalog:"
+    "eslint": "^9.19.0",
+    "prettier": "^3.5.2",
+    "typescript": "^5.7.3"
   },
   "prettier": "@repo-stuff/prettier-config"
 }

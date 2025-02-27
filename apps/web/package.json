@@ -21,10 +21,10 @@
     "@tanstack/react-query": "^5.66.5",
     "geist": "^1.3.1",
     "next": "^14.2.23",
-    "react": "catalog:react18",
-    "react-dom": "catalog:react18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "superjson": "2.2.2",
-    "zod": "catalog:"
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@repo-stuff/eslint-config": "workspace:*",
@@ -32,14 +32,14 @@
     "@repo-stuff/tailwind-config": "workspace:*",
     "@repo-stuff/tsconfig": "workspace:*",
     "@types/node": "^22.10.10",
-    "@types/react": "catalog:react18",
-    "@types/react-dom": "catalog:react18",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1",
     "dotenv-cli": "^8.0.0",
-    "eslint": "catalog:",
+    "eslint": "^9.19.0",
     "jiti": "^1.21.7",
-    "prettier": "catalog:",
+    "prettier": "^3.5.2",
     "tailwindcss": "catalog:",
-    "typescript": "catalog:"
+    "typescript": "^5.7.3"
   },
   "prettier": "@repo-stuff/prettier-config"
 }

@@ -33,7 +33,7 @@
     "@vercel/postgres": "^0.10.0",
     "drizzle-orm": "^0.38.4",
     "drizzle-zod": "^0.6.1",
-    "zod": "catalog:"
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@repo-stuff/eslint-config": "workspace:*",
@@ -41,9 +41,9 @@
     "@repo-stuff/tsconfig": "workspace:*",
     "dotenv-cli": "^8.0.0",
     "drizzle-kit": "^0.30.2",
-    "eslint": "catalog:",
-    "prettier": "catalog:",
-    "typescript": "catalog:"
+    "eslint": "^9.19.0",
+    "prettier": "^3.5.2",
+    "typescript": "^5.7.3"
   },
   "prettier": "@repo-stuff/prettier-config"
 }
