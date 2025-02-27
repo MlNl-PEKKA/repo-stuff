@@ -1,4 +1,4 @@
-import baseConfig from "repo-stuff/eslint-config/base";
+import baseConfig from "@repo-stuff/eslint-config/base";
 
 /** @type {import('typescript-eslint').Config} */
 export default [

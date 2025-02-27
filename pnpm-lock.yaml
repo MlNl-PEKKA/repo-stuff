@@ -38,7 +38,7 @@ catalogs:
 importers:
   .:
     devDependencies:
-      "repo-stuff/prettier-config":
+      "@repo-stuff/prettier-config":
         specifier: workspace:*
         version: link:tooling/prettier
       prettier:
@@ -53,13 +53,13 @@ importers:
 
   apps/web:
     dependencies:
-      "repo-stuff/db":
+      "@repo-stuff/db":
         specifier: workspace:*
         version: link:../../packages/db
-      "repo-stuff/ui":
+      "@repo-stuff/ui":
         specifier: workspace:*
         version: link:../../packages/ui
-      "repo-stuff/validators":
+      "@repo-stuff/validators":
         specifier: workspace:*
         version: link:../../packages/validators
       "@t3-oss/env-nextjs":
@@ -87,16 +87,16 @@ importers:
         specifier: "catalog:"
         version: 3.24.1
     devDependencies:
-      "repo-stuff/eslint-config":
+      "@repo-stuff/eslint-config":
         specifier: workspace:*
         version: link:../../tooling/eslint
-      "repo-stuff/prettier-config":
+      "@repo-stuff/prettier-config":
         specifier: workspace:*
         version: link:../../tooling/prettier
-      "repo-stuff/tailwind-config":
+      "@repo-stuff/tailwind-config":
         specifier: workspace:*
         version: link:../../tooling/tailwind
-      "repo-stuff/tsconfig":
+      "@repo-stuff/tsconfig":
         specifier: workspace:*
         version: link:../../tooling/typescript
       "@types/node":
@@ -142,13 +142,13 @@ importers:
         specifier: "catalog:"
         version: 3.24.1
     devDependencies:
-      "repo-stuff/eslint-config":
+      "@repo-stuff/eslint-config":
         specifier: workspace:*
         version: link:../../tooling/eslint
-      "repo-stuff/prettier-config":
+      "@repo-stuff/prettier-config":
         specifier: workspace:*
         version: link:../../tooling/prettier
-      "repo-stuff/tsconfig":
+      "@repo-stuff/tsconfig":
         specifier: workspace:*
         version: link:../../tooling/typescript
       dotenv-cli:
@@ -194,16 +194,16 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
     devDependencies:
-      "repo-stuff/eslint-config":
+      "@repo-stuff/eslint-config":
         specifier: workspace:*
         version: link:../../tooling/eslint
-      "repo-stuff/prettier-config":
+      "@repo-stuff/prettier-config":
         specifier: workspace:*
         version: link:../../tooling/prettier
-      "repo-stuff/tailwind-config":
+      "@repo-stuff/tailwind-config":
         specifier: workspace:*
         version: link:../../tooling/tailwind
-      "repo-stuff/tsconfig":
+      "@repo-stuff/tsconfig":
         specifier: workspace:*
         version: link:../../tooling/typescript
       "@types/react":
@@ -231,13 +231,13 @@ importers:
         specifier: "catalog:"
         version: 3.24.1
     devDependencies:
-      "repo-stuff/eslint-config":
+      "@repo-stuff/eslint-config":
         specifier: workspace:*
         version: link:../../tooling/eslint
-      "repo-stuff/prettier-config":
+      "@repo-stuff/prettier-config":
         specifier: workspace:*
         version: link:../../tooling/prettier
-      "repo-stuff/tsconfig":
+      "@repo-stuff/tsconfig":
         specifier: workspace:*
         version: link:../../tooling/typescript
       eslint:
@@ -277,10 +277,10 @@ importers:
         specifier: ^8.21.0
         version: 8.21.0(eslint@9.19.0(jiti@2.4.2))(typescript@5.7.3)
     devDependencies:
-      "repo-stuff/prettier-config":
+      "@repo-stuff/prettier-config":
         specifier: workspace:*
         version: link:../prettier
-      "repo-stuff/tsconfig":
+      "@repo-stuff/tsconfig":
         specifier: workspace:*
         version: link:../typescript
       "@types/eslint__js":
@@ -308,7 +308,7 @@ importers:
         specifier: ^0.6.11
         version: 0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.4.2))(prettier@3.4.2)
     devDependencies:
-      "repo-stuff/tsconfig":
+      "@repo-stuff/tsconfig":
         specifier: workspace:*
         version: link:../typescript
       typescript:
@@ -327,13 +327,13 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.14(ts-node@10.9.2(@types/node@22.10.10)(typescript@5.7.3)))
     devDependencies:
-      "repo-stuff/eslint-config":
+      "@repo-stuff/eslint-config":
         specifier: workspace:*
         version: link:../eslint
-      "repo-stuff/prettier-config":
+      "@repo-stuff/prettier-config":
         specifier: workspace:*
         version: link:../prettier
-      "repo-stuff/tsconfig":
+      "@repo-stuff/tsconfig":
         specifier: workspace:*
         version: link:../typescript
       eslint:

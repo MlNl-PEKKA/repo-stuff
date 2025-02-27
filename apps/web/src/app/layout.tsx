@@ -1,9 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
-import { cn } from "repo-stuff/ui";
-import { ThemeProvider, ThemeToggle } from "repo-stuff/ui/theme";
-import { Toaster } from "repo-stuff/ui/toast";
+
+import { cn } from "@repo-stuff/ui";
+import { ThemeProvider, ThemeToggle } from "@repo-stuff/ui/theme";
+import { Toaster } from "@repo-stuff/ui/toast";
 
 import "~/app/globals.css";
 
@@ -12,11 +13,11 @@ import { env } from "~/env";
 export const metadata: Metadata = {
   metadataBase: new URL(
     env.VERCEL_ENV === "production"
-      ? "https://repo-stuff.vercel.app"
+      ? "https://@repo-stuff.vercel.app"
       : "http://localhost:3000",
   ),
-  title: "repo-stuff",
-  description: "repo-stuff",
+  title: "@repo-stuff",
+  description: "@repo-stuff",
 };
 
 export const viewport: Viewport = {
